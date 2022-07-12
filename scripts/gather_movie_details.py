@@ -126,4 +126,4 @@ if __name__ == "__main__":
 
     movies: pd.DataFrame = movies.dropna()
 
-    movies.to_excel("movies_details.xlsx")
+    movies.to_csv("data/movies_details.csv")
